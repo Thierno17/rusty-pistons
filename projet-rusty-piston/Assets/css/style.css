@@ -1,0 +1,73 @@
+header{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../Images/banniere1V2.png");
+    width: auto;
+    height: 18rem; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar h2{
+    color: white;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.nav-link.active{
+    color: #4482c3 !important;
+}
+
+.nav-link:hover{
+    color: black !important;
+    background-color: white;
+
+}
+
+
+.btn{
+    opacity: 0.8;
+    margin-right: 0.9375rem;
+}
+
+.btn:hover{
+    border-color: #4482c3 !important ;
+}
+
+.b-cards:hover{
+    width: auto;
+    height: auto;
+    background-color: #ebebeb;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .2);
+}
+
+
+.titre-pied-de-page{
+    color: white;
+}
+
+
+.icons{
+    color: white;
+    font-size: 0.75rem;
+}
+
+
+.btn-primary:hover{
+    background-color: #ebebeb;
+    color: black;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .2);
+}
+
+.gallery_product:hover{
+    opacity: 0.5;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
